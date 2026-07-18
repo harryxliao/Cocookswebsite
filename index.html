@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; font-src 'self' https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data:; script-src 'self' 'unsafe-inline'; connect-src 'self' https://formspree.io; object-src 'none';" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico?v=2" />
+  <title>Cocooks — DIY Cooking Solutions</title>
+  <meta name="description" content="Cocooks is an interactive DIY Cooking Classroom solution for urban foodies. Book cooking classes, use professional kitchens, and build a healthier lifestyle." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="main-nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <img src="assets/logo-white.webp" alt="Cocooks Logo" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="#problem">Problem</a></li>
+        <li><a href="#solution">Solution</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#market">Market</a></li>
+        <li><a href="#partner">Partner</a></li>
+      </ul>
+      <a href="#cta" class="nav-cta" id="nav-cta-btn">Get Early Access</a>
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero" class="hero-section">
+    <div class="hero-bg-overlay"></div>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="hero-badge animate-fade-up">
+          <span class="badge-dot"></span>
+          PRE-SEED ROUND &middot; 2025
+        </div>
+        <h1 class="hero-headline animate-fade-up delay-1">
+          Cook. Learn. <br /><span class="accent">Thrive Together.</span>
+        </h1>
+        <p class="hero-sub animate-fade-up delay-2">
+          An interactive DIY Cooking Classroom solution for urban foodies.<br />
+          We want you to <strong>Focus on Cooking.</strong> We Handle the Rest.
+        </p>
+        <div class="hero-actions animate-fade-up delay-3">
+          <a href="#cta" class="btn-primary" id="hero-cta-btn">Get Early Access</a>
+          <a href="#solution" class="btn-ghost" id="hero-learn-btn">See How It Works &darr;</a>
+        </div>
+      </div>
+      <div class="hero-visual animate-fade-up delay-2">
+        <div class="hero-mockup-wrapper">
+          <img src="assets/hero-visual.webp" alt="Cocooks App Prototype" class="hero-mockup-img" />
+          <div class="hero-mockup-glow"></div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section id="problem" class="section problem-section">
+    <div class="container">
+      <div class="section-eyebrow animate-on-scroll">The Problem</div>
+      <h2 class="section-headline animate-on-scroll">
+        Why Are Young Adults<br /><span class="accent">Cooking Less?</span>
+      </h2>
+      <div class="problem-grid">
+        <div class="problem-card animate-on-scroll">
+          <div class="problem-icon">&#127859;</div>
+          <h3>Limited Cooking Experience</h3>
+          <p>Young adults lack the skills and confidence to cook real meals from scratch at home.</p>
+        </div>
+        <div class="problem-card animate-on-scroll delay-1">
+          <div class="problem-icon">&#127968;</div>
+          <h3>Inadequate Kitchen Facilities</h3>
+          <p>73% of surveyed users share a kitchen&mdash;cramped, under-equipped, and uninspiring spaces kill creativity.</p>
+        </div>
+        <div class="problem-card animate-on-scroll delay-2">
+          <div class="problem-icon">&#128218;</div>
+          <h3>Lack of Food Knowledge</h3>
+          <p>Without proper guidance and interactive tutorials, learning to cook feels overwhelming and inaccessible.</p>
+        </div>
+      </div>
+      <div class="problem-insight animate-on-scroll">
+        <div class="insight-stat">
+          <span class="insight-number accent">73%</span>
+          <span class="insight-text">of surveyed users share a kitchen in their place</span>
+        </div>
+        <div class="insight-divider"></div>
+        <div class="insight-stat">
+          <span class="insight-number accent">27%</span>
+          <span class="insight-text">have their own kitchen but still face major pain points</span>
+        </div>
+        <div class="insight-divider"></div>
+        <blockquote class="insight-quote">
+          &ldquo;Facilitating easy access to well-equipped kitchens for friends to cook and dine together.&rdquo;
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUTION -->
+  <section id="solution" class="section solution-section">
+    <div class="container">
+      <div class="section-eyebrow animate-on-scroll">The Solution</div>
+      <h2 class="section-headline animate-on-scroll">
+        An Affordable DIY Cooking Solution<br /><span class="accent">That Integrates Services</span>
+      </h2>
+      <div class="solution-grid">
+        <div class="solution-step animate-on-scroll">
+          <div class="step-num accent">01</div>
+          <h3>Book on Mobile</h3>
+          <p>Foodies use our <strong class="accent">mobile app</strong> to discover and book cooking classes that match their taste and skill level.</p>
+        </div>
+        <div class="solution-step animate-on-scroll delay-1">
+          <div class="step-num accent">02</div>
+          <h3>Space &amp; Kits Provided</h3>
+          <p>Cocooks provides a fully equipped <strong class="accent">commercial kitchen</strong> space and all necessary cooking kits&mdash;no prep needed.</p>
+        </div>
+        <div class="solution-step animate-on-scroll delay-2">
+          <div class="step-num accent">03</div>
+          <h3>Interactive Tutorials</h3>
+          <p>On-screen <strong class="accent">interactive tutorials</strong> guide you step-by-step through every technique, making culinary learning effortless.</p>
+        </div>
+        <div class="solution-step animate-on-scroll delay-3">
+          <div class="step-num accent">04</div>
+          <h3>Drop In Anytime</h3>
+          <p>No planning required&mdash;just <strong class="accent">come and cook</strong> right away. Users can drop in any time that suits them.</p>
+        </div>
+      </div>
+      <div class="solution-visual animate-on-scroll">
+        <img src="assets/slide-solution.webp" alt="Cocooks DIY Solution" class="solution-img" />
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="section features-section">
+    <div class="container">
+      <div class="section-eyebrow animate-on-scroll">Features</div>
+      <h2 class="section-headline animate-on-scroll">
+        Let Interactive Tutorials<br /><span class="accent">Guide Your Every Step</span>
+      </h2>
+      <p class="section-sub animate-on-scroll">
+        From kitchen equipment mastery to completing your first dish&mdash;Cocooks transforms cooking into a guided, rewarding experience.
+      </p>
+      <div class="features-grid">
+        <div class="feature-col animate-on-scroll">
+          <div class="feature-phase">
+            <div class="phase-label accent">On the Screen</div>
+            <div class="feature-item">
+              <div class="feature-dot"></div>
+              <div>
+                <h4>Small Goal Setting</h4>
+                <p>Break every recipe into bite-sized milestones so success feels achievable at each step.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-dot"></div>
+              <div>
+                <h4>Step Replay &amp; Rewatching</h4>
+                <p>Missed a step? Replay any tutorial segment instantly, right at your station.</p>
+              </div>
+            </div>
+          </div>
+          <div class="feature-phase">
+            <div class="phase-label accent">During the Class</div>
+            <div class="feature-item">
+              <div class="feature-dot"></div>
+              <div>
+                <h4>Process Recording &amp; Photos</h4>
+                <p>Capture your cooking journey automatically&mdash;photos and video of every step.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-dot"></div>
+              <div>
+                <h4>Practical Tips Pushed to App</h4>
+                <p>Real-time tips and tricks delivered directly to your phone as you cook.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-dot"></div>
+              <div>
+                <h4>2P Collab Mode</h4>
+                <p>Cook alongside a friend with shared goals and synchronized tutorial flows.</p>
+              </div>
+            </div>
+          </div>
+          <div class="feature-phase">
+            <div class="phase-label accent">After Class</div>
+            <div class="feature-item">
+              <div class="feature-dot"></div>
+              <div>
+                <h4>Course Completion &amp; Rewards</h4>
+                <p>Earn badges, level up your cooking profile, and unlock exclusive advanced recipes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="feature-screen animate-on-scroll delay-2">
+          <img src="assets/slide-features.webp" alt="Cocooks Interactive Tutorial Screen" class="feature-img" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARKET OPPORTUNITY / COMPETITION -->
+  <section id="market" class="section market-section">
+    <div class="container">
+      <h2 class="section-headline animate-on-scroll" style="max-width: 900px;">
+        Cocooks Provide Solutions for DIY Cooking Compared to the Competition
+      </h2>
+      <div class="comparison-table-wrapper animate-on-scroll">
+        <div class="comp-table">
+          <!-- Header Row -->
+          <div class="comp-row comp-header">
+            <div class="comp-cell comp-cell-label"></div>
+            <div class="comp-cell active-col-header" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+              <img src="assets/logo-color.webp" alt="Cocooks" style="height:28px;" />
+            </div>
+            <div class="comp-cell brand-title" style="font-family: serif; font-style: italic; font-size: 26px;">Sur La Table</div>
+            <div class="comp-cell brand-title" style="font-family: cursive; font-size: 28px;">Cozymeal</div>
+            <div class="comp-cell brand-title" style="font-size: 16px;">ABC <span style="font-weight:400;">Cooking Studio</span></div>
+            <div class="comp-cell brand-title" style="font-size: 28px; font-weight: 400; letter-spacing: -1px;">alexa</div>
+          </div>
+          
+          <!-- Row 1 -->
+          <div class="comp-row">
+            <div class="comp-cell comp-cell-label">Service Type</div>
+            <div class="comp-cell active-col">DIY Cooking Class</div>
+            <div class="comp-cell">Private Chef</div>
+            <div class="comp-cell">Private Chef</div>
+            <div class="comp-cell">Private Chef</div>
+            <div class="comp-cell">SideChef Recipes</div>
+          </div>
+          
+          <!-- Row 2 -->
+          <div class="comp-row">
+            <div class="comp-cell comp-cell-label">Class Format</div>
+            <div class="comp-cell active-col">In-person<br/>+ Online Replay</div>
+            <div class="comp-cell">In-person<br/>+ Zoom</div>
+            <div class="comp-cell">In-person<br/>+ Zoom</div>
+            <div class="comp-cell">In-person</div>
+            <div class="comp-cell">Recipes</div>
+          </div>
+          
+          <!-- Row 3 -->
+          <div class="comp-row">
+            <div class="comp-cell comp-cell-label">Cost Structure</div>
+            <div class="comp-cell active-col">$15-$20 per dish<br/>$15 per hour</div>
+            <div class="comp-cell">$79~$29 per<br/>person</div>
+            <div class="comp-cell">Start at ~$29</div>
+            <div class="comp-cell">~$480/12 classes</div>
+            <div class="comp-cell">Alexa Echo $250</div>
+          </div>
+          
+          <!-- Row 4 -->
+          <div class="comp-row">
+            <div class="comp-cell comp-cell-label">Region</div>
+            <div class="comp-cell active-col">U.S.</div>
+            <div class="comp-cell">U.S.</div>
+            <div class="comp-cell">U.S.</div>
+            <div class="comp-cell">JP</div>
+            <div class="comp-cell">Global</div>
+          </div>
+          
+          <!-- Row 5 -->
+          <div class="comp-row">
+            <div class="comp-cell comp-cell-label">Estimated Annual Revenue</div>
+            <div class="comp-cell active-col">~402 million</div>
+            <div class="comp-cell">~$518 million</div>
+            <div class="comp-cell">~$29.9 million</div>
+            <div class="comp-cell">~121 million</div>
+            <div class="comp-cell">N/A</div>
+          </div>
+          
+          <!-- Row 6 -->
+          <div class="comp-row">
+            <div class="comp-cell comp-cell-label">Interactive Tablet Lesson</div>
+            <div class="comp-cell active-col">Yes</div>
+            <div class="comp-cell">No</div>
+            <div class="comp-cell">No</div>
+            <div class="comp-cell">No</div>
+            <div class="comp-cell">No</div>
+          </div>
+          
+          <!-- Row 7 -->
+          <div class="comp-row">
+            <div class="comp-cell comp-cell-label">Customize Menu</div>
+            <div class="comp-cell active-col">Yes</div>
+            <div class="comp-cell">No</div>
+            <div class="comp-cell">No</div>
+            <div class="comp-cell">No</div>
+            <div class="comp-cell">Yes</div>
+          </div>
+          
+          <!-- Row 8 -->
+          <div class="comp-row" style="border-bottom: none;">
+            <div class="comp-cell comp-cell-label">Flexible Curriculum</div>
+            <div class="comp-cell active-col" style="border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">Yes</div>
+            <div class="comp-cell">No</div>
+            <div class="comp-cell">No</div>
+            <div class="comp-cell">No</div>
+            <div class="comp-cell">Yes</div>
+          </div>
+        </div>
+      </div>
+      <div class="comp-footer animate-on-scroll">
+        <img src="assets/logo-color.webp" alt="" /> Cocooks Inc Copyright 2025&copy;
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY / CUISINE SHOWCASE -->
+  <section id="gallery" class="section gallery-section">
+    <div class="container">
+      <div class="section-eyebrow animate-on-scroll">Cuisine Showcase</div>
+      <h2 class="section-headline animate-on-scroll">
+        World-Class Recipes<br /><span class="accent">At Your Fingertips</span>
+      </h2>
+      <p class="section-sub animate-on-scroll">From Japanese sushi to fresh salads&mdash;explore a curated library of hands-on cooking experiences for every skill level.</p>
+    </div>
+    <div class="gallery-strip animate-on-scroll">
+      <div class="gallery-card">
+        <img src="assets/food-1.webp" alt="Professional knife skills" />
+        <div class="gallery-label">Knife Skills</div>
+      </div>
+      <div class="gallery-card">
+        <img src="assets/food-2.webp" alt="Fresh salad preparation" />
+        <div class="gallery-label">Fresh Salads</div>
+      </div>
+      <div class="gallery-card">
+        <img src="assets/food-sushi.webp" alt="Japanese sushi" />
+        <div class="gallery-label">Japanese Sushi</div>
+      </div>
+      <div class="gallery-card">
+        <img src="assets/food-4.webp" alt="Gourmet cooking" />
+        <div class="gallery-label">Gourmet Cooking</div>
+      </div>
+      <div class="gallery-card">
+        <img src="assets/food-5.webp" alt="Baking class" />
+        <div class="gallery-label">Baking &amp; Pastry</div>
+      </div>
+      <div class="gallery-card">
+        <img src="assets/food-6.webp" alt="Meal plating" />
+        <div class="gallery-label">Plating &amp; Presentation</div>
+      </div>
+      <div class="gallery-card">
+        <img src="assets/food-7.webp" alt="Fusion cuisine" />
+        <div class="gallery-label">Fusion Cuisine</div>
+      </div>
+      <div class="gallery-card">
+        <img src="assets/food-8.webp" alt="Healthy cooking" />
+        <div class="gallery-label">Healthy Cooking</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARTNER -->
+  <section id="partner" class="section partner-section">
+    <div class="container">
+      <div class="section-eyebrow animate-on-scroll">Our Partner</div>
+      <h2 class="section-headline animate-on-scroll">
+        Powered by<br /><span class="accent">Atlas Commercial Kitchen</span>
+      </h2>
+      <div class="partner-grid">
+        <div class="partner-info animate-on-scroll">
+          <div class="partner-logo-box">
+            <img src="assets/atlas-logo-white.svg" alt="Atlas Commercial Kitchen" class="atlas-logo" />
+          </div>
+          <h3>Main Kitchen Equipment</h3>
+          <div class="equipment-list">
+            <div class="equipment-item">
+              <span class="equip-icon">&#x1F963;</span>
+              <span>Mixing &amp; Dough Preparation</span>
+            </div>
+            <div class="equipment-item">
+              <span class="equip-icon">&#x1F373;</span>
+              <span>Cooking Equipment</span>
+            </div>
+            <div class="equipment-item">
+              <span class="equip-icon">&#x1F950;</span>
+              <span>Baking &amp; Ovens</span>
+            </div>
+            <div class="equipment-item">
+              <span class="equip-icon">&#x1F52A;</span>
+              <span>Food Preparation &amp; Processing</span>
+            </div>
+          </div>
+        </div>
+        <div class="partner-img-wrapper animate-on-scroll delay-1">
+          <img src="assets/slide-partner.webp" alt="Atlas Commercial Kitchen" class="partner-img" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="cta" class="section cta-section">
+    <div class="cta-glow"></div>
+    <div class="container cta-inner">
+      <div class="section-eyebrow animate-on-scroll">Join the Movement</div>
+      <h2 class="cta-headline animate-on-scroll">
+        Ready to Cook<br /><span class="accent">Something Amazing?</span>
+      </h2>
+      <p class="cta-sub animate-on-scroll">
+        Join thousands of urban foodies building confidence in the kitchen.<br />
+        Your first class is just a tap away.
+      </p>
+      
+      <!-- CUSTOM FORM HANDLING -->
+      <div id="form-container">
+        <form class="cta-form animate-on-scroll" id="cta-form">
+          <!-- Anti-spam Honeypot -->
+          <input type="text" name="_gotcha" id="cta-gotcha" tabindex="-1" autocomplete="off" style="opacity: 0; position: absolute; top: 0; left: 0; height: 0; width: 0; z-index: -1;" />
+          <input type="email" name="email" id="cta-email" placeholder="Enter your email address" maxlength="120" required />
+          <button type="submit" id="cta-submit-btn">Get Early Access</button>
+        </form>
+        <div id="cta-error" style="display:none; color: #ff5555; margin-top: 12px; font-size: 14px;"></div>
+      </div>
+      
+      <!-- SUCCESS ANIMATION WRAPPER -->
+      <div id="cta-success" class="cta-success-wrapper" style="display:none;">
+        <div class="success-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 6L9 17l-5-5" />
+          </svg>
+        </div>
+        <div class="success-text">
+          <h3>You're on the list!</h3>
+          <p>We'll be in touch soon.</p>
+        </div>
+      </div>
+
+      <p class="cta-disclaimer animate-on-scroll">No credit card required &middot; Free to join &middot; Cancel anytime</p>
+      <div class="cta-contact animate-on-scroll">
+        <span>Questions? Reach us at</span>
+        <a href="mailto:info@cocooks.com" class="accent">info@cocooks.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-logo" id="site-footer">
+        <img src="assets/logo-white.webp" alt="Cocooks" />
+      </div>
+      <div class="footer-links">
+        <a href="#problem">Problem</a>
+        <a href="#solution">Solution</a>
+        <a href="#features">Features</a>
+        <a href="#market">Market</a>
+        <a href="#partner">Partner</a>
+      </div>
+      <div class="footer-right">
+        <p>&copy; 2025 Cocooks Inc. All rights reserved.</p>
+        <p class="footer-tagline">DIY Cooking Solutions &middot; www.cocooks.com</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
