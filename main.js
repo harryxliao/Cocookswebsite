@@ -234,3 +234,27 @@ function makeScrollable(selector) {
 
 makeScrollable('.comparison-table-wrapper');
 makeScrollable('.gallery-strip');
+
+// ---- Partner Tabs Fade Interaction ----
+const partnerTabs = document.querySelectorAll('.partner-tab');
+const partnerImages = document.querySelectorAll('.partner-fade-img');
+
+if (partnerTabs.length > 0 && partnerImages.length > 0) {
+  partnerTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      // Remove active class from all tabs and images
+      partnerTabs.forEach(t => t.classList.remove('active'));
+      partnerImages.forEach(img => img.classList.remove('active'));
+
+      // Add active class to clicked tab
+      tab.classList.add('active');
+
+      // Add active class to corresponding image
+      const targetId = tab.getAttribute('data-target');
+      const targetImg = document.getElementById(targetId);
+      if (targetImg) {
+        targetImg.classList.add('active');
+      }
+    });
+  });
+}
